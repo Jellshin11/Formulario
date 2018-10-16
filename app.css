@@ -1,0 +1,15 @@
+header{
+    background: blue;
+    color: aliceblue;
+}
+h1{
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form{
+    background: grey;
+    border-color: black;
+    color: white;
+    width: 50%;
+    margin-left: 125px;
+}
