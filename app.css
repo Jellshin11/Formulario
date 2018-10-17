@@ -30,21 +30,26 @@ h1{
 }
 form{
     background: #B2B2B2;
-    color: black;
-    width: 325px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 375px;
     margin-left: 250px;
     padding-top: 1px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
-label, input
-{
-    margin-left: 10px;
+.letra-label{
+    margin-left: 5px;
 }
 .contenedor{
-     padding: 25px;
+     padding: 15px;
      margin-left: 220px;
 }
 body{
     background-image: url("imagenes/fondo.png");
+}
+
+form:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 }

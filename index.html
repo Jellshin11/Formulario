@@ -14,15 +14,26 @@
 <body>
     <div class="contenedor">
     <form class="formu" onsubmit="return valida()">
-       <label><p>Nombre:</p></label>
+       <label class="letra-label"><p>Nombre:</p></label>
         <input type="text" id="nombre">
-        <label ><p>Apellido: </p></label>
+        <label class="letra-label" ><p>Apellido: </p></label>
         <input type="text" id="apellido">
-        <label ><p>Edad:</p></label> 
+        <label class="letra-label" ><p>Edad:</p></label> 
         <input type="number" min="0" max="120" id="edad">
-        <label ><p>Sexo: </p></label>
-        Masculino <input type="checkbox" required id="checked">
-        Femenino <input type="checkbox" required id="checked"> <br>
+        <label class="letra-label" ><p>Sexo: </p></label>
+        Masculino <input type="checkbox"  id="elegido">
+        Femenino <input type="checkbox"  id="elegido">
+        <label class="letra-label" ><p>Domicilio: </p></label>
+        <input type="text" id="domicilio">
+        <label class="letra-label"><p>Seleccione un país: </p></label>
+        <select name="seleccion" id="seleccionar">
+            <option value="opcion">Brasil</option>
+            <option value="opcion">España</option>
+            <option value="opcion">Nicaragua</option>
+            <option value="opcion">Guatemala</option>
+        </select>
+        <label class="letra-label"><p>Telefono:</p></label> 
+        <input type="number" min="0" size="8" id="telefono"><br>
         <label class="cbt"><input type="submit" class="botones" value="Enviar"> 
         <input type="reset"  class="botones" value="Borrar"></label>
 
