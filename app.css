@@ -1,24 +1,50 @@
+html,head{
+    padding: 0;
+}
 header{
-    background: blue;
+
     color: aliceblue;
     text-align: center;
-    height: 50px;
+    height: 80px;
+    padding-top: 0;
 }
 h1{
     
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-form{
-    background: grey;
-    border-color: black;
+.botones{
+    height: 30px;
+    border: 1px solid black;
+    margin-left: 2px;
+    border-radius: 5px;
+}
+.cbt{
+    margin-left: 50px;
+    margin-top: 2px;
+}
+.botones:hover{
+    background: black;
     color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+form{
+    background: #B2B2B2;
+    color: black;
     width: 325px;
     margin-left: 250px;
     padding-top: 1px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
 label, input
 {
     margin-left: 10px;
 }
-
-
+.contenedor{
+     padding: 25px;
+     margin-left: 220px;
+}
+body{
+    background-image: url("imagenes/fondo.png");
+}

@@ -12,20 +12,21 @@
     <h1>Formularios</h1>
 </header>
 <body>
-    
+    <div class="contenedor">
     <form class="formu" onsubmit="return valida()">
-       <label><p>Nombre:</p></label><br>
-        <input type="text" id="nombre"><br>
-        <label ><p>Apellido: </p></label><br>
-        <input type="text" id="apellido"><br>
-        <label ><p>Edad:</p></label> <br>
-        <input type="number" id="edad"><br>
-        <label ><p>Sexo: </p></label> <br>
-        Masculino <input type="checkbox" id="check">
-        Femenino <input type="checkbox" id="check"> <br>
-        <input type="submit" value="Enviar"> 
-        <input type="reset" value="Borrar">
+       <label><p>Nombre:</p></label>
+        <input type="text" id="nombre">
+        <label ><p>Apellido: </p></label>
+        <input type="text" id="apellido">
+        <label ><p>Edad:</p></label> 
+        <input type="number" min="0" max="120" id="edad">
+        <label ><p>Sexo: </p></label>
+        Masculino <input type="checkbox" required id="checked">
+        Femenino <input type="checkbox" required id="checked"> <br>
+        <label class="cbt"><input type="submit" class="botones" value="Enviar"> 
+        <input type="reset"  class="botones" value="Borrar"></label>
 
     </form>
+    </div>
 </body>
 </html>

@@ -1,8 +1,8 @@
 function valida() {
  var nombre = document.getElementById('nombre').value;
- var spellido = document.getElementById('apellido').value;
+ var apellido = document.getElementById('apellido').value;
  var edad = document.getElementById('edad').value;
- var check = document.getElementById('check').value;
+ var check = document.getElementById('checked');
  
 
  if(nombre == null || nombre.length==0|| /^\s+$/.test(nombre)){
@@ -16,7 +16,7 @@ function valida() {
 }
 
 if(edad == null || edad.length==0||isNAN(edad)){
-    alert('Error: El campo no debe estar vacío o lleno de espacios');
+    alert('Error: El campo edad no debe de estar vacio o introducir un entero');
     return false;
 }
 
